@@ -56,4 +56,4 @@ Advisory (abstract)
 └── VegetableCrop   (irrigationFreq, 10% post-harvest loss)
 ---
 
-## 🏗️ Class Structure
+
