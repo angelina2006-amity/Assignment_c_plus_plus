@@ -57,7 +57,6 @@ public:
     string getName() { return name; }
     static int getCount() { return count; }
 
-    // Virtual functions (runtime polymorphism)
     virtual double totalYield() {
         return area * yieldPerAcre;
     }
@@ -326,8 +325,6 @@ int main() {
             cout << "Error: " << e.what() << endl;
         }
     } while (choice != 0);
-
-    // free memory (virtual destructor gets called)
     for (int i = 0; i < crops.size(); i++)
         delete crops[i];
 
